@@ -1,0 +1,149 @@
+/* Basic selectors - element/tag, grouping, nested, universal, id,
+class, attribute, Pseudu element(::), Pseudo class(:)   */
+
+:root {
+    --primary-color: #4caf50;
+    --secondary-color: #fff;
+    --backgournd-color: #f4f4f4;
+    --card-background-color: #fff;
+    --card-shadow: rgba(0, 0, 0, 0.2);
+    --padding: 0.5rem;
+    --margin: 0.5rem;
+}
+
+* {}
+
+body {
+    background-color: var(--backgournd-color);
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    margin: 0;
+    border: 0;
+}
+
+h1,
+h2 {
+    color: var(--primary-color);
+}
+
+ul { 
+    list-style: none;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.8rem 1.5rem;
+    margin: 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: var(--card-background-color);
+    border-radius: 0.5rem;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    box-shadow: 0 0.2rem 0.4rem var(--card-shadow);
+}
+
+
+/* header starts here */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 0.8rem;
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* header ends here */
+
+
+
+/* main starts here */
+main {
+    width: 80%;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12rem 0;
+}
+
+table,
+th,
+td {
+    border: 1px Solid #ddd;
+    padding: 0.5rem;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+/* main ends here */
+
+/* footer starts here */
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0;
+
+}
+
+.social-media a {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+/* footer starts here */
+
+/* Class Specification starts here */
+/* a = number of ids */
+/* b = number of class, pseduo class, attributes */
+/* c = number of elements, pseduo elements */
+/* Class Specification e here */
+
+/* p {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    color: ;
+} */
