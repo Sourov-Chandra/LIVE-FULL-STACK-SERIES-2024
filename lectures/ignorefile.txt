@@ -1,0 +1,14 @@
+
+BEM = Block, Element, Modifier architecter
+
+
+Block: letters, digits, dashes 
+Element: letters, digits, dashes, underscore
+Modifiers: letters, digits, daches, underscore
+
+
+- syntax for naming element class: 
+    block_element
+- syntax for naming Modifier class: 
+    block/element--Modifier
+

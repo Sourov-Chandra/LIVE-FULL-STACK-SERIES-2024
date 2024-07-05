@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    
+}
+
+header {
+    grid-column: 1/7;
+    background-color: #000;
+    color: white;
+    height: 10vh;
+}
+
+nav {
+    color: white;
+    background-color:#cf8080;
+    grid-column: 1/2;
+    
+}
+
+main{
+
+    grid-column: 2/5;
+    height: 80vh;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.product{
+    background-color: antiquewhite;
+}
+
+aside{
+    background-color: green;
+    grid-column: 5/7;
+}
+
+footer{
+    background-color: rgb(115, 115, 126);
+    grid-column: 1/7;
+    height: 5vh;
+}
+
+@media screen and (max-width: 768px) {
+    nav,main, aside{
+        grid-column: 1/7;
+
+    }
+}
