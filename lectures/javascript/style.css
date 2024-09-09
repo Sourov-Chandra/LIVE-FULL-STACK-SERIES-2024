@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(103, 127, 148);
+}
+
+button {
+    border: none;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
