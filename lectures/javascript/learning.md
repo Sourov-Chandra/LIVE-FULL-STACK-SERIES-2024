@@ -29,7 +29,7 @@
         - while vs do while loop
         - break, continue
 - Array, String, Object
-    - for of, for in
+    - for of(using for array), for in(using for object)
 
 ## JavaScript part-4 (Basic)
 - function vs method
@@ -50,10 +50,10 @@
 
 ## JavaScript part-6 (Intermediate)
 - higher order functions: map, filter, foreach, reduce, callback functions
-- Error Handling
 
 ## JavaScript part-7 (Intermediate)
 
+- Error Handling
 - Acynchronous programming: async, await, then, catch, callback
 - api calling 
 - JSON
@@ -63,3 +63,6 @@
 
 ## JavaScript part-9 (Intermediate)
 - Project: Ecommece front-page
+
+
+

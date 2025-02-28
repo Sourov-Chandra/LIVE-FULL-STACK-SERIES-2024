@@ -110,7 +110,7 @@
 
 // ! Topic 6 - Higher Order build-in function: some(toolen value) => at least one item should be true
 // Best practice: variable name should start with has
-// at least one item price > 1500
+// at least one item of something(price) > 1500
 
 // const price = 1500;
 // const hasPrice = cardProducts.some((cardItem) => cardItem.price > price);

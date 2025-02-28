@@ -129,9 +129,9 @@
 // }
 
 // const color = ['red', 'green', 'blue'];
-// // console.log(color[0]);
-// // console.log(color[1]);
-// // console.log(color[2]);
+// console.log(color[0]);
+// console.log(color[1]);
+// console.log(color[2]);
 
 // const [first, second, third] = color; //destructuring
 // console.log(first);
